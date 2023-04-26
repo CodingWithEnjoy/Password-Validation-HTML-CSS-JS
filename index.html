@@ -1,1 +1,47 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Password Validation - Coding With Enjoy | برنامه نویسی با لذت</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="pass-field">
+        <input type="password" placeholder="رمز عبور" />
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div class="content">
+        <p>رمز عبور باید شامل موارد زیر باشد :</p>
+        <ul class="requirement-list">
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>حداقل طول 8 کاراکتر </span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>حداقل یک عدد (0 ... 9)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>حداقل یک حرف کوچک (a ... z)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>حداقل یک سمبول (! ... $)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>حداقل یک حرف بزرگ (A ... Z)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
